@@ -25,12 +25,13 @@ if(!defined("IN_MYBB")) {
 //FUNCTION: Plugin info
 function spraywall_info() {
 	return array(
-		"name"						=> "Spray Wall",
+		"name"					=> "Spray Wall",
 		"description"			=> "Users can spray short messages to a wall.",
-		"author"					=> "Jazza",
+		"author"				=> "Jared Williams",
 		"authorsite"			=> "http://www.jaredwilliams.com.au/",
-		"version"					=> "1.0",
-		"compatibility"		=> "6"
+		"version"				=> "1.0",
+		"compatibility"			=> "6",
+		"guid"					=> "9d67bafa5bc3ca4fa0f94496154830d4"
 	);
 }
 
