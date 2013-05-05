@@ -435,7 +435,7 @@ function spraywall_activate() {
 	global $mybb, $db;
 	
 	//Deactivate it first so we start fresh...
-	prostore_deactivate();
+	spraywall_deactivate();
 	
 	//Add the variable to templates...
 	require_once MYBB_ROOT."/inc/adminfunctions_templates.php";
